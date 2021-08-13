@@ -19,3 +19,8 @@ body {
     margin-bottom: 8px;
     margin-left: 8px;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}

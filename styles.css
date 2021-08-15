@@ -34,3 +34,30 @@ h {
  font-family: Georgia;
 }
 */
+
+.right-nav {
+    float: right;
+    padding: 0 10 0 10
+}
+.link {
+    padding: 0 10 0 10
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    padding: 10;
+    width: 120;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-item {
+    
+}

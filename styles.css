@@ -47,6 +47,7 @@ h {
     position: relative;
     float: right;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -58,6 +59,14 @@ h {
 .dropdown:hover .dropdown-content{
     display: block;
 }
-.dropdown-item {
-    
+
+
+ul {
+    list-style: '-';
+    padding-left: 40;
 }
+
+li span {
+    position: relative;
+    left: 10px;
+  }

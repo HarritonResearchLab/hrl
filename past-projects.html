@@ -25,13 +25,42 @@
     <hr>
     <div class="body">
         <h1>Past Projects</h1>
-        <p style="font-family: Lato">kdjakjsdf.</p>
-        <img src="https://raw.githubusercontent.com/HarritonResearchLab/hrl/main/images/qmplot.png" alt="Q vs M Plot">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos omnis rerum perferendis recusandae illo quasi aut voluptates qui doloremque. Porro culpa deleniti eos voluptatem reprehenderit alias fugiat itaque qui soluta</p>
-    </div>
-    <hr>
+        <h3>A ZTF look at young stellar variability </h2>
+        <p align="justify"></p> Over the course of the 2020-2021 school year, Harriton sophmore Thaddaeus Kiker and Harriton Juniors Miles Gee, Owen Lester, and Noah Braunfeld investigated the optical variability of baby stars in a stellar nursery known as the North American Pelican Nebulae complex under the mentorship of Dr. Lynne Hillenbrand at Caltech.</p>
+        <p align="justify"> We utilized Python extensively in this project to work with hundreds of thousands of observations from numerous telescopes like the Zwicky Transient Facility at Caltech and the Kepler space telescope. We are currently editing a paper highlighting our findings for publication.</p>
+        
+        <img class="mySlides" src="misc. pictures/ysos_pictures/qm_plot.png">
+        <img class="mySlides" src="misc. pictures/ysos_pictures/mag_magerr.png">
+        <img class="mySlides" src="misc. pictures/ysos_pictures/mag_vs_nu.png">
+        <img class="mySlides" src="misc. pictures/ysos_pictures/qpd_slopes_gallery.png">
+        <img class="mySlides" src="misc. pictures/ysos_pictures/m_tutorial.png">
+        <img class="mySlides" src="misc. pictures/ysos_pictures/infrared_plot_4.png">
+
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+        }
+        </script>
+</div>
     <div class="footer">
-        <a href="index.html" class="link">github</a>
+        <a href="https://github.com/HarritonResearchLab" class="link">github</a>
     </div>
 </body>
 </html>

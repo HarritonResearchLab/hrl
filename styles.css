@@ -70,3 +70,8 @@ li span {
     position: relative;
     left: 10px;
   }
+
+img.smallerphoto {
+    width: 90%;  
+    height: 80%; 
+} 

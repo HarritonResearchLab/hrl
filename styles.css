@@ -25,6 +25,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /*
 p {
  font-family: Lato;
@@ -35,6 +36,10 @@ h {
 }
 */
 
+#hrl-title {
+    text-align:center;
+}
+
 .right-nav {
     float: right;
     padding: 0 10 0 10
@@ -42,6 +47,7 @@ h {
 .link {
     padding: 0 10 0 10
 }
+
 .dropdown {
     display: inline-block;
     position: relative;
@@ -60,7 +66,6 @@ h {
 .dropdown:hover .dropdown-content{
     display: block;
 }
-
 
 ul {
     list-style: '-';

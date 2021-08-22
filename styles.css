@@ -55,6 +55,7 @@ h {
     background-color: white;
     padding: 10;
     width: 120;
+    border: 1px solid black;
 }
 .dropdown:hover .dropdown-content{
     display: block;

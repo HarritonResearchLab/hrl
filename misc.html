@@ -11,16 +11,27 @@
     </style>
     </head>
 <body>
-    <div class="navbar">
-        <a href="index.html" class="left-nav">home</a>
-        <a href="join-us.html" class="right-nav">join us</a>
-        <div class="dropdown">
-            <a href="projects.html" class="">projects</a>
-            <div class="dropdown-content">
-                <a href="current-projects.html" class="dropdown-item">current projects</a>
-                <a href="past-projects.html" class="dropdown-item">past projects</a>
-            </div>
-        </div>
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a tabindex="-1" href="#">HTML</a></li>
+      <li><a tabindex="-1" href="#">CSS</a></li>
+      <li class="dropdown-submenu">
+        <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+          <li class="dropdown-submenu">
+            <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">3rd level dropdown</a></li>
+              <li><a href="#">3rd level dropdown</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
     </div>
     <hr>
     <div class="body">

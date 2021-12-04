@@ -13,8 +13,10 @@ body {
 	font-size: 16px;
 	background-color: #222;
 	color: #aaa;
-	width: 90%; 
+	width: 60%; 
 	margin: 0 auto; 
+	text-align: center;
+
 }
 
 .simple-container {

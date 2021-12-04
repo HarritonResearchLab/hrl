@@ -1,6 +1,11 @@
 // MODIFIED FROM https://gist.github.com/ZachSaucier
 
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+h1 {
+    margin: auto;
+    text-align: center;
+} 
+
+/* @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 * {
 	-webkit-box-sizing: border-box;
@@ -106,3 +111,5 @@ aside,
 		font-size: 18px;
 	}
 }
+
+*/

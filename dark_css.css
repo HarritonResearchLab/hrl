@@ -1,3 +1,5 @@
+// MODIFIED FROM https://gist.github.com/ZachSaucier
+
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 * {
@@ -11,6 +13,8 @@ body {
 	font-size: 16px;
 	background-color: #222;
 	color: #aaa;
+	width: 90%; 
+	margin: 0 auto; 
 }
 
 .simple-container {

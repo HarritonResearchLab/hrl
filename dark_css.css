@@ -5,6 +5,8 @@
 * {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	text-align: center;
+
 }
 
 body {
@@ -15,7 +17,6 @@ body {
 	color: #aaa;
 	width: 60%; 
 	margin: 0 auto; 
-	text-align: center;
 
 }
 

@@ -1,2 +1,4 @@
-id,title_str,amazon_link,sent
-1,"zero to one","https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296",False
+id,title_str,amazon_link
+1,"zero to one","https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296"
+2,"test two","google.com"
+123,"test 123","google.com"
